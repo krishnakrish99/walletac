@@ -8,6 +8,7 @@ import org.springframework.stereotype.Repository;
 
 import com.walletaccount.service.model.WalletAccount;
 
+@SuppressWarnings("unused")
 @Repository
 public interface WalletAccountRepository extends JpaRepository<WalletAccount, Long>{
 
